@@ -135,7 +135,5 @@ City scenario screenshots: `screenshots/city_*.png` · GIF: [`screenshots/naviga
 ## What I learned
 Occupancy-grid mapping, graph search (A\*), sensor simulation, state machines for robot behaviour, layering reactive safety over deliberative planning, writing testable robotics code.
 
-## Author
-**<Your Name>** - <your degree / college> · [LinkedIn](https://linkedin.com/in/<you>) · [GitHub](https://github.com/<you>)
 
 MIT License
