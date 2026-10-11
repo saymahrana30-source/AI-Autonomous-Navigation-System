@@ -1,0 +1,16 @@
+{
+  "scenario": "warehouse",
+  "success": true,
+  "final_state": "GOAL_REACHED",
+  "sim_time_s": 46.2,
+  "path_length": 72.0,
+  "straight_line_distance": 48.8,
+  "path_efficiency": 0.678,
+  "replans": 25,
+  "planner_calls": 44,
+  "avg_plan_time_ms": 0.59,
+  "unexpected_obstacles_detected": 14,
+  "collisions": 0,
+  "min_clearance": 0.64,
+  "algorithm": "astar"
+}

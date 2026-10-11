@@ -1,0 +1,2 @@
+$ python -c "import cv2, numpy, matplotlib; print('OK', cv2.__version__, numpy.__version__, matplotlib.__version__)"
+OK 4.13.0 2.4.4 3.10.8

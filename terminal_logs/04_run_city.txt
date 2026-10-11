@@ -1,0 +1,23 @@
+$ python main.py --scenario city --out outputs/city
+================================================================
+ AI-Based Autonomous Navigation System
+ scenario=city  grid=60x42  planner=ASTAR  prior_map=yes
+ start=(2, 2)  goal=(39, 57)  moving obstacles=3
+================================================================
+[t=   2.0s] first_detection  unexpected obstacle detected 8.4 m away
+[t=   2.0s] first_replan     path blocked -> re-planning
+[t=  87.8s] goal             goal reached
+----------------------------------------------------------------
+ RESULT: SUCCESS - goal reached
+   sim_time_s                      87.8
+   path_length                     133.1
+   straight_line_distance          66.3
+   path_efficiency                 0.498
+   replans                         10
+   planner_calls                   46
+   avg_plan_time_ms                0.99
+   unexpected_obstacles_detected   15
+   collisions                      0
+   min_clearance                   0.72
+ outputs saved in: /home/claude/AI-Autonomous-Navigation-System/outputs/city/
+================================================================

@@ -1,0 +1,17 @@
+$ python run_tests.py
+tests/test_planner.py::test_astar_finds_path_that_avoids_obstacles ... PASS (0.00s)
+tests/test_planner.py::test_astar_matches_dijkstra_cost_but_expands_fewer_nodes ... PASS (0.00s)
+tests/test_planner.py::test_goal_inside_obstacle_fails ... PASS (0.00s)
+tests/test_planner.py::test_inflation_grows_obstacles ... PASS (0.00s)
+tests/test_planner.py::test_no_diagonal_corner_cutting ... PASS (0.00s)
+tests/test_planner.py::test_no_path_when_goal_enclosed ... PASS (0.00s)
+tests/test_planner.py::test_smoothing_keeps_path_collision_free_and_shorter ... PASS (0.01s)
+tests/test_navigation.py::test_city_reaches_goal_without_collision ... PASS (3.39s)
+tests/test_navigation.py::test_lidar_measures_distance_to_wall ... PASS (0.00s)
+tests/test_navigation.py::test_mapping_adds_hidden_obstacle_and_removes_it_when_it_leaves ... PASS (0.01s)
+tests/test_navigation.py::test_random_maps_are_navigable ... PASS (10.85s)
+tests/test_navigation.py::test_safety_layer_stops_robot_before_obstacle ... PASS (0.01s)
+tests/test_navigation.py::test_warehouse_reaches_goal_without_collision ... PASS (0.82s)
+tests/test_navigation.py::test_works_without_prior_map ... PASS (0.90s)
+----------------------------------------------------------------------
+14 passed, 0 failed in 16.3s

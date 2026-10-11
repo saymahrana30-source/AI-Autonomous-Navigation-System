@@ -1,0 +1,23 @@
+$ python main.py --algorithm dijkstra --no-gif --out outputs/dijkstra
+================================================================
+ AI-Based Autonomous Navigation System
+ scenario=warehouse  grid=50x30  planner=DIJKSTRA  prior_map=yes
+ start=(26, 3)  goal=(3, 46)  moving obstacles=2
+================================================================
+[t=   3.8s] first_detection  unexpected obstacle detected 2.8 m away
+[t=  16.6s] first_replan     path blocked -> re-planning
+[t=  39.4s] goal             goal reached
+----------------------------------------------------------------
+ RESULT: SUCCESS - goal reached
+   sim_time_s                      39.4
+   path_length                     60.7
+   straight_line_distance          48.8
+   path_efficiency                 0.803
+   replans                         9
+   planner_calls                   25
+   avg_plan_time_ms                2.25
+   unexpected_obstacles_detected   9
+   collisions                      0
+   min_clearance                   0.82
+ outputs saved in: /home/claude/AI-Autonomous-Navigation-System/outputs/dijkstra/
+================================================================

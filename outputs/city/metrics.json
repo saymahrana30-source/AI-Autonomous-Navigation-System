@@ -1,0 +1,16 @@
+{
+  "scenario": "city",
+  "success": true,
+  "final_state": "GOAL_REACHED",
+  "sim_time_s": 87.8,
+  "path_length": 133.1,
+  "straight_line_distance": 66.3,
+  "path_efficiency": 0.498,
+  "replans": 10,
+  "planner_calls": 46,
+  "avg_plan_time_ms": 0.86,
+  "unexpected_obstacles_detected": 15,
+  "collisions": 0,
+  "min_clearance": 0.72,
+  "algorithm": "astar"
+}

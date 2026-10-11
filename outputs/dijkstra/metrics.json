@@ -1,0 +1,16 @@
+{
+  "scenario": "warehouse",
+  "success": true,
+  "final_state": "GOAL_REACHED",
+  "sim_time_s": 39.4,
+  "path_length": 60.7,
+  "straight_line_distance": 48.8,
+  "path_efficiency": 0.803,
+  "replans": 9,
+  "planner_calls": 25,
+  "avg_plan_time_ms": 2.25,
+  "unexpected_obstacles_detected": 9,
+  "collisions": 0,
+  "min_clearance": 0.82,
+  "algorithm": "dijkstra"
+}

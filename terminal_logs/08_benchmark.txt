@@ -1,0 +1,6 @@
+$ python benchmark.py
+            nodes expanded    runtime (ms)   path cost
+A*                     539             3.8        78.4
+Dijkstra              1110             5.8        78.4
+A* expands 51% fewer nodes; path costs identical: True
+saved outputs/planner_comparison.png

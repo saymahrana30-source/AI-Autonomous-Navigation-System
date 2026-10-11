@@ -1,0 +1,23 @@
+$ python main.py --scenario random --seed 3 --no-gif --out outputs/random
+================================================================
+ AI-Based Autonomous Navigation System
+ scenario=random-3  grid=60x40  planner=ASTAR  prior_map=yes
+ start=(37, 2)  goal=(2, 57)  moving obstacles=0
+================================================================
+[t=   0.1s] first_detection  unexpected obstacle detected 6.9 m away
+[t=   0.2s] first_replan     path blocked -> re-planning
+[t=  44.4s] goal             goal reached
+----------------------------------------------------------------
+ RESULT: SUCCESS - goal reached
+   sim_time_s                      44.4
+   path_length                     69.0
+   straight_line_distance          65.2
+   path_efficiency                 0.944
+   replans                         29
+   planner_calls                   46
+   avg_plan_time_ms                1.35
+   unexpected_obstacles_detected   20
+   collisions                      0
+   min_clearance                   0.84
+ outputs saved in: /home/claude/AI-Autonomous-Navigation-System/outputs/random/
+================================================================

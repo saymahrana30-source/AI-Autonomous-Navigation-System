@@ -1,0 +1,16 @@
+{
+  "scenario": "random-3",
+  "success": true,
+  "final_state": "GOAL_REACHED",
+  "sim_time_s": 44.4,
+  "path_length": 69.0,
+  "straight_line_distance": 65.2,
+  "path_efficiency": 0.944,
+  "replans": 29,
+  "planner_calls": 46,
+  "avg_plan_time_ms": 1.35,
+  "unexpected_obstacles_detected": 20,
+  "collisions": 0,
+  "min_clearance": 0.84,
+  "algorithm": "astar"
+}
